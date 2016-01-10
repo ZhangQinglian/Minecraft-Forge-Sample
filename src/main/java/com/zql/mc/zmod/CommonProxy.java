@@ -23,7 +23,7 @@ public abstract class CommonProxy {
         //register craft and smelt
         RecipeInitor.initAllRecipe();
         
-        com.zql.mc.zmod.item.z_simple_block01.StartupCommon.preInitCommon();
+        com.zql.mc.zmod.item.simple_block_01.StartupCommon.preInitCommon();
     }
 
     /**
@@ -31,7 +31,7 @@ public abstract class CommonProxy {
      * Register recipes, send FMLInterModComms messages to other mods.
      */
     public void init() {
-        com.zql.mc.zmod.item.z_simple_block01.StartupCommon.initCommon();
+        com.zql.mc.zmod.item.simple_block_01.StartupCommon.initCommon();
     }
 
     /**

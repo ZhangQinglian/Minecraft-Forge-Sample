@@ -1,4 +1,4 @@
-package com.zql.mc.zmod.item.z_simple_block01;
+package com.zql.mc.zmod.item.simple_block_01;
 
 import com.zql.mc.zmod.ZMod;
 

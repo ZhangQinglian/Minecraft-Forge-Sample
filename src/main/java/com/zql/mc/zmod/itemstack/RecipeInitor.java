@@ -2,8 +2,16 @@ package com.zql.mc.zmod.itemstack;
 
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
+/**
+ * 用于初始化mod所需要的合成列表
+ * @author scott
+ *
+ */
 public class RecipeInitor {
 
+    /**
+     * 在CommonProxy的preInit中调用
+     */
     public static void initAllRecipe() {
 
         // ------------------------------------------------------无序合成表------------------------------------------------------
