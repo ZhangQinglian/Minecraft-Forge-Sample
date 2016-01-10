@@ -3,7 +3,6 @@ package com.zql.mc.zmod;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.Mod.EventHandler;
-import net.minecraftforge.fml.common.Mod.Instance;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
@@ -21,26 +20,17 @@ public class ZMod {
     public static CommonProxy proxy;
 
     @EventHandler
-    public void preInit(FMLPreInitializationEvent event)
-    {
-      proxy.preInit();
+    public void preInit(FMLPreInitializationEvent event) {
+        proxy.preInit();
     }
 
     @EventHandler
-    public void init(FMLInitializationEvent event)
-    {
-      proxy.init();
+    public void init(FMLInitializationEvent event) {
+        proxy.init();
     }
 
     @EventHandler
-    public void postInit(FMLPostInitializationEvent event)
-    {
-      proxy.postInit();
+    public void postInit(FMLPostInitializationEvent event) {
+        proxy.postInit();
     }
-    /**
-     * Prepend the name with the mod ID, suitable for ResourceLocations such as textures.
-     * @param name
-     * @return eg "minecraftbyexample:myblockname"
-     */
-    public static String prependModID(String name) {return MOD_ID + ":" + name;}
 }
