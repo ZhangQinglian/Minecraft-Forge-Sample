@@ -1,0 +1,11 @@
+bin/
+build/
+config/
+crash-reports/
+forge-project_Client.launch
+forge-project_Server.launch
+logs/
+options.txt
+run/
+saves/
+usernamecache.json

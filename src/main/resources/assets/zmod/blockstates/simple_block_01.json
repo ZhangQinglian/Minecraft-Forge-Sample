@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "zmod:simple_block_01" }
+    }
+}

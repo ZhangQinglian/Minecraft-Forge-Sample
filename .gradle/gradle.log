@@ -1,0 +1,32 @@
+Error occurred parsing version!
+Error occurred parsing version!
+#################################################
+         ForgeGradle 2.0-SNAPSHOT        
+  https://github.com/MinecraftForge/ForgeGradle  
+#################################################
+               Powered by MCP 9.10               
+             http://modcoderpack.com             
+         by: Searge, ProfMobius, Fesh0r,         
+         R4wk, ZeuX, IngisKahn, bspkrs           
+#################################################
+:deobfCompileDummyTask
+:deobfProvidedDummyTask
+:eclipseClasspath
+:eclipseJdt
+:eclipseProject
+:getVersionJsonConnection reset
+
+:extractNatives SKIPPED
+:extractUserdev UP-TO-DATE
+:getAssetIndexOperation timed out
+ UP-TO-DATE
+:getAssets
+Current status: 517/734   70%
+:makeStart SKIPPED
+:makeEclipseCleanRunClient
+:makeEclipseCleanRunServer
+:eclipse
+
+BUILD SUCCESSFUL
+
+Total time: 1 mins 54.63 secs

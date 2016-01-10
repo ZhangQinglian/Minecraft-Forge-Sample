@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "down": "zmod:blocks/z_simple_block01_face",
+        "up": "zmod:blocks/z_simple_block01_face",
+        "north": "zmod:blocks/z_simple_block01_face",
+        "east": "zmod:blocks/z_simple_block01_face",
+        "south": "zmod:blocks/z_simple_block01_face",
+        "west": "zmod:blocks/z_simple_block01_face",
+        "particle": "blocks/lapis_block"
+    }
+}
