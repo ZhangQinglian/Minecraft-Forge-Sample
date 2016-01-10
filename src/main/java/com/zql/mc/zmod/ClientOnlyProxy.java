@@ -21,6 +21,7 @@ public class ClientOnlyProxy extends CommonProxy {
     public void preInit() {
         super.preInit();
         com.zql.mc.zmod.item.simple_block_01.StartupClientOnly.preInitClientOnly();
+        com.zql.mc.zmod.item.simple_item_01.StartupClientOnly.preInitClientOnly();
     }
 
     /**
@@ -30,6 +31,7 @@ public class ClientOnlyProxy extends CommonProxy {
     public void init() {
         super.init();
         com.zql.mc.zmod.item.simple_block_01.StartupClientOnly.initClientOnly();
+        com.zql.mc.zmod.item.simple_item_01.StartupClientOnly.initClientOnly();
     }
 
     /**

@@ -24,6 +24,7 @@ public abstract class CommonProxy {
         RecipeInitor.initAllRecipe();
         
         com.zql.mc.zmod.item.simple_block_01.StartupCommon.preInitCommon();
+        com.zql.mc.zmod.item.simple_item_01.StartupCommon.preInitCommon();
     }
 
     /**
@@ -32,6 +33,7 @@ public abstract class CommonProxy {
      */
     public void init() {
         com.zql.mc.zmod.item.simple_block_01.StartupCommon.initCommon();
+        com.zql.mc.zmod.item.simple_item_01.StartupCommon.initCommon();
     }
 
     /**

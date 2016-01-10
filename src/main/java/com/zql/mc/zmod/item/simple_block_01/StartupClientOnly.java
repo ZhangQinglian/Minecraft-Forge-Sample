@@ -12,9 +12,9 @@ public class StartupClientOnly {
     }
 
     public static void initClientOnly() {
-        Item itemBlockSimple = GameRegistry.findItem("zmod",SimpleBlock01.BLOCK_NAME);
-        ModelResourceLocation itemModelResourceLocation = new ModelResourceLocation(ZMod.MOD_ID + ":" + SimpleBlock01.BLOCK_NAME,
-                "inventory");
+        Item itemBlockSimple = GameRegistry.findItem("zmod", SimpleBlock01.BLOCK_NAME);
+        ModelResourceLocation itemModelResourceLocation = new ModelResourceLocation(
+                ZMod.prependModID(SimpleBlock01.BLOCK_NAME), "inventory");
         final int DEFAULT_ITEM_SUBTYPE = 0;
         Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(itemBlockSimple, DEFAULT_ITEM_SUBTYPE,
                 itemModelResourceLocation);
